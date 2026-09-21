@@ -34,8 +34,8 @@ export default function Home() {
         {/* 6. Official Welcome Message to the Website */}
         <WelcomeMessage />
 
-        {/* 7. Journey With Us (Vocational Trades Accordion) */}
-        <JourneyWithUs />
+        {/* 7. Journey With Us (Hidden as requested) */}
+        {/* <JourneyWithUs /> */}
 
         {/* 8. Featured News (National Agric Awards) */}
         <FeaturedNews />
