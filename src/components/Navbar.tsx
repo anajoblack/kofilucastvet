@@ -37,21 +37,21 @@ export default function Navbar() {
   }, [aboutDropdownOpen]);
 
   const topUtilityLinks = [
-    { label: "Strategic Collaborator", href: "#" },
-    { label: "Strategic & Business Plan", href: "#" },
-    { label: "Project Proposals", href: "#" },
-    { label: "Sustainable Dev’t Goals", href: "#" },
-    { label: "Workplace Experience Learning (WEL)", href: "#" },
-    { label: "Sports & Recreation", href: "#" },
-    { label: "Arts & Culture", href: "#" },
-    { label: "Media Updates", href: "#news-updates" },
+    { label: "Strategic Collaborator", href: "/strategic-collaborator" },
+    { label: "Strategic & Business Plan", href: "/oti-region-improvement-plan" },
+    { label: "Project Proposals", href: "/projects" },
+    { label: "Sustainable Dev’t Goals", href: "/sustainable-development-goals" },
+    { label: "Workplace Experience Learning (WEL)", href: "/programmes" },
+    { label: "Sports & Recreation", href: "/sports-recreation" },
+    { label: "Arts & Culture", href: "/arts-culture" },
+    { label: "Media Updates", href: "/media-updates" },
   ];
 
   const aboutSubmenu = [
-    { label: "OTI Region TVET Service", href: "#" },
-    { label: "Message From the Director", href: "#director-welcome" },
-    { label: "Meet The TEAM", href: "#" },
-    { label: "TVETS At A Glance", href: "#" },
+    { label: "OTI Region TVET Service", href: "/about" },
+    { label: "Message From the Director", href: "/director" },
+    { label: "Meet The TEAM", href: "/meet-the-team" },
+    { label: "TVETS At A Glance", href: "/ghana-tvet-service" },
   ];
 
   return (
@@ -144,31 +144,31 @@ export default function Navbar() {
             </div>
 
             <Link
-              href="#"
+              href="/providers"
               className="text-[15px] font-medium text-white hover:text-[#f7b500] transition-colors"
             >
               TVET Providers
             </Link>
             <Link
-              href="#"
+              href="/meet-the-team"
               className="text-[15px] font-medium text-white hover:text-[#f7b500] transition-colors"
             >
               Ambassadors
             </Link>
             <Link
-              href="#programmes"
+              href="/programmes"
               className="text-[15px] font-medium text-white hover:text-[#f7b500] transition-colors"
             >
               Programmes
             </Link>
             <Link
-              href="#projects"
+              href="/projects"
               className="text-[15px] font-medium text-white hover:text-[#f7b500] transition-colors"
             >
               Projects
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               className="text-[15px] font-medium text-white hover:text-[#f7b500] transition-colors"
             >
               Contact
@@ -177,7 +177,7 @@ export default function Navbar() {
             {/* Support TVETS Button */}
             <div className="pl-2">
               <Link
-                href="#support"
+                href="/support"
                 className="inline-block bg-[#f7b500] hover:bg-[#e5a800] text-[#030000] font-semibold text-[15px] px-6 py-2.5 rounded-full transition-transform hover:scale-[1.03] active:scale-[0.98] shadow-md"
               >
                 Support TVETS
@@ -232,35 +232,35 @@ export default function Navbar() {
                 </div>
               </div>
               <Link
-                href="#"
+                href="/providers"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-md font-medium text-white hover:bg-[#034e9f]"
               >
                 TVET Providers
               </Link>
               <Link
-                href="#"
+                href="/meet-the-team"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-md font-medium text-white hover:bg-[#034e9f]"
               >
                 Ambassadors
               </Link>
               <Link
-                href="#programmes"
+                href="/programmes"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-md font-medium text-white hover:bg-[#034e9f]"
               >
                 Programmes
               </Link>
               <Link
-                href="#projects"
+                href="/projects"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-md font-medium text-white hover:bg-[#034e9f]"
               >
                 Projects
               </Link>
               <Link
-                href="#contact"
+                href="/contact"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-md font-medium text-white hover:bg-[#034e9f]"
               >

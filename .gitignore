@@ -43,4 +43,5 @@ next-env.d.ts
 # reference files
 /Ghana TVETS*
 /Screenshot*
+/backup
 

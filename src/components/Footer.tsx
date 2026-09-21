@@ -37,22 +37,22 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#director-welcome" className="hover:text-white transition-colors">
+                <Link href="/director" className="hover:text-white transition-colors">
                   Message from the Regional Director
                 </Link>
               </li>
               <li>
-                <Link href="#projects" className="hover:text-white transition-colors">
+                <Link href="/projects" className="hover:text-white transition-colors">
                   Proposed Office Building
                 </Link>
               </li>
               <li>
-                <Link href="#featured-news" className="hover:text-white transition-colors">
+                <Link href="/media-updates" className="hover:text-white transition-colors">
                   Featured News & Awards
                 </Link>
               </li>
               <li>
-                <Link href="#programmes" className="hover:text-white transition-colors">
+                <Link href="/programmes" className="hover:text-white transition-colors">
                   Programmes & Trades
                 </Link>
               </li>
@@ -66,22 +66,22 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-neutral-400">
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="/strategic-collaborator" className="hover:text-white transition-colors">
                   Strategic Collaborator & Partner (NARNGO)
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="/programmes" className="hover:text-white transition-colors">
                   Workplace Experience Learning (WEL)
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="/sustainable-development-goals" className="hover:text-white transition-colors">
                   Sustainable Development Goals
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="/sports-recreation" className="hover:text-white transition-colors">
                   Sports, Recreation & Culture
                 </Link>
               </li>
